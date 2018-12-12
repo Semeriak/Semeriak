@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="searchWrap">
+    <input type="text" placeholder="Search..." id="myInput" onkeyup="myFunction()">
+    <span class="addBtn" onclick="newTableRow()">Add <i class="fas fa-plus"></i></span>
+</div>
+<table>
+    <tbody>
+    <tr>
+        <td width="210" valign="top">
+            <p align="center"><span>1</span></p>
+        </td>
+        <td width="100" valign="top">
+            <p align="center"><span>2</span></p>
+        </td>
+        <td width="116" valign="top">
+            <p align="center"><span>3</span></p>
+        </td>
+        <td width="47" valign="top">
+            <p align="center"><span>4</span></p>
+        </td>
+        <td width="45" valign="top">
+            <p align="center"><span>5</span></p>
+        </td>
+        <td width="47" valign="top">
+            <p align="center"><span>6</span></p>
+        </td>
+        <td width="66">
+            <p align="center"><span>7</span></p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+    <table id="table">
+        <tbody>
+        <tr>
+            <div>
+            <td width="210">
+                <p>Передкарпатська
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Iвано-Франкiвська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Коломийське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">B</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">1593</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">129</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">19.04.94</p>
+            </td>
+            </div>
+        </tr>
+
+        <tr>
+            <td width="210" valign="top">
+                <p>Передкарпатська
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Iвано-Франкiвська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Слобідське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">А</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">775</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">3871</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">21.09.93</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Передкарпатська
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Iвано-Франкiвська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Снятинське-ГН</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">AВ</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">726</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">13245</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">11.09.93</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Передкарпатська
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Чернiвецька</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Лужанське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">C2</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">6169</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">1814</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">18.03.92</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Передкарпатська
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Чернiвецька</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Хотинське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">ABC1</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">16844</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">4897</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">19.06.02</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Передкарпатська
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Львiвська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Жидачівське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">C1</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">962</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">9935</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">10.03.03</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Днiпровсько-Донецька
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Херсонська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Бехтерське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">АВС2</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">117</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">462</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">01.09.93</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Днiпровсько-Донецька
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Херсонська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Пнiвське-НГК</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">АВ</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">903</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">313</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">21.07.02</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Днiпровсько-Донецька
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Херсонська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Пнiвське-НГК</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">АВ</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">903</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">36</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">09.06.04</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Днiпровсько-Донецька
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Сумська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Схiднiвське-НГ</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">В</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">1483</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">23</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">07.10.04</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Днiпровсько-Донецька
+                    нафтогазоносна область</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Сумська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Схiднiвське-НГ</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">B</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">1483</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">184</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">04.04.04</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Причорноморсько-Кримська
+                    газонафтоносна впадина</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Одеська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Жовтярське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">C1</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">2292</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">500</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">03.03.02</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Причорноморсько-Кримська
+                    газонафтоносна впадина</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Одеська</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Жовтярське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">С1</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">2292</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">340</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">02.02.03</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Причорноморсько-Кримська
+                    газонафтоносна впадина</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Кримська АР</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Сiвське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">А</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">254</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">14</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">11.19.94</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Причорноморсько-Кримська
+                    газонафтоносна впадина</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Кримська АР</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Сiвське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">А</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">254</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">241</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">15.11.02</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="210" valign="top">
+                <p>Причорноморсько-Кримська
+                    газонафтоносна впадина</p>
+            </td>
+            <td width="100" valign="top">
+                <p>Кримська АР</p>
+            </td>
+            <td width="116" valign="top">
+                <p>Сiвське-Н</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">А</p>
+            </td>
+            <td width="45" valign="top">
+                <p align="center">254</p>
+            </td>
+            <td width="47" valign="top">
+                <p align="center">14</p>
+            </td>
+            <td width="66" valign="top">
+                <p align="center">21.12.92</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
